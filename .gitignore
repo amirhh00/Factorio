@@ -1,0 +1,9 @@
+config
+temp
+blueprint-storage.dat
+crop-cache.dat
+*.log
+player-data.json
+server-adminlist.json
+saves
+!/saves/energye_*
