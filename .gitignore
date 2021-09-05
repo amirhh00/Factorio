@@ -1,9 +1,10 @@
-config
+/config/config.ini
 temp
 blueprint-storage.dat
 crop-cache.dat
 *.log
 player-data.json
 server-adminlist.json
-saves
-!/saves/energye_*
+/saves/*.zip
+# !/saves/energye_*.zip
+!/saves/rocket*.zip
