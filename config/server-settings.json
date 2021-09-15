@@ -1,0 +1,8 @@
+{
+  "visibility": {
+    "public": true,
+    "lan": false
+  },
+  "name": "${INSTANCE_NAME}",
+  "description": "${INSTANCE_DESC}"
+}

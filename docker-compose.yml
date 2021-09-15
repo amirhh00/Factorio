@@ -6,4 +6,9 @@ services:
       - "34197:34197/udp"
       - "27015:27015/tcp"
     volumes:
-      - /opt/factorio:/.
+      - /opt/factorio:/factorio
+      - ./config/server-settings.json:/server-settings.json
+    environment:
+      - INSTANCE_NAME=esy_game
+      - INSTANCE_DESC=test
+    entrypoint: /bin/sh -c "mkdir -p /factorio/config && envsubst < /server-settings.json > /factorio/config/server-settings.json && exec /docker-entrypoint.sh"

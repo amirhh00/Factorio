@@ -9,6 +9,11 @@
     },
     
     {
+      "name": "alien-biomes",
+      "enabled": true
+    },
+    
+    {
       "name": "ChangeMapSettings",
       "enabled": true
     }
