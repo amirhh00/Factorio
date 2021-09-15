@@ -14,7 +14,17 @@
     },
     
     {
+      "name": "cargo-ships",
+      "enabled": true
+    },
+    
+    {
       "name": "ChangeMapSettings",
+      "enabled": true
+    },
+    
+    {
+      "name": "Todo-List",
       "enabled": true
     }
   ]
