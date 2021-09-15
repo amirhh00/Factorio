@@ -3,6 +3,7 @@ temp
 blueprint-storage.dat
 crop-cache.dat
 *.log
+.lock
 player-data.json
 server-adminlist.json
 /saves/*.zip
